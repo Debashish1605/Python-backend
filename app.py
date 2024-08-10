@@ -27,7 +27,7 @@ with app.app_context():
 # Welcome route
 @app.route('/')
 def index():
-    return "Welcome to the Flask CRUD API!", 200
+    return "Welcome to the Flask CRUD API!",
 
 # Create a new user
 @app.route('/users', methods=['POST'])
